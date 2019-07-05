@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <!---
+                    -->
+    <link rel="stylesheet" type="text/css" href="http://w2ui.com/src/w2ui-1.4.min.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://w2ui.com/src/w2ui-1.4.min.js"></script>
+</head>
+
+
+
+
+
+<div id="popup1" style="display: none; width: 650px; height: 400px; overflow: auto">
+    <div rel="title">
+        Popup One Title
+    </div>
+
+    <div rel="body">
+    </div>
+
+    <div rel="buttons">
+        <button class="btn" onclick="$('#popup2').w2popup()">Switch to Popup 2</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+w2popup.open({
+    title   : 'Popup Title HTML',
+    body    : 'Body HTML',
+    buttons : 'Buttons HTML'
+});
+
+</script>
+
+</html>

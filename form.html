@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <!---
+                    -->
+    <link rel="stylesheet" type="text/css" href="http://w2ui.com/src/w2ui-1.4.min.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://w2ui.com/src/w2ui-1.4.min.js"></script>
+
+</head>
+<body>
+    <div id="myForm" style="width: 600px"></div>
+</body>
+<script>
+$(function () {
+    $('#myForm').w2form({ 
+        name   : 'myForm',
+		url      : '/server/url',
+        fields : [
+            { name: 'first_name', type: 'text', required: true },
+            { name: 'last_name',  type: 'text', required: true },
+            { name: 'userid',   type: 'text'}
+        ],
+        actions: {
+            reset: function () {
+                this.clear();
+            },
+            save: function () {
+                this.save();
+            }
+        }
+    });
+});
+</script>
+</html>
