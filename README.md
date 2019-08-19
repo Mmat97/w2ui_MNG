@@ -1,17 +1,19 @@
-# CLS
-CLS
+# w2ui_MNG
+w2ui_MNG is a rest api application to store new users for ecommerce websites in a json file while implementing a variety of different calls 
 
-## CLS
-CLS
+
+
+## Description
+w2ui_MNG applies w2ui interface alongside rest api
 
 
 
 
 
 ## Advantages
-1.
+1. Records different requests such as POST and GET without installing anything on the client side 
 
-2.
+
 
 
 
@@ -27,7 +29,7 @@ CLS
 
 **Libraries:** 
 
-
+[flask_restful]https://flask-restful.readthedocs.io/en/latest/
 
 **OS Used:** 
 
@@ -39,38 +41,28 @@ CLS
 
 **References**
 
+restful: https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
 
+Rest and php: https://www.youtube.com/watch?v=RTjd1nwvlj4
 
-
-
+xampp: https://www.apachefriends.org/index.html
 
 ## Installation and Run 
-**Install:** 
 
-
-2.Install Tesseract OCR(Opticsl Character Recognition)
-
-```
-	brew install tesseract --HEAD
-```
-
-```
-	python3 -m pip install pytesseract
-```
-
-```
-	python3 -m pip install imutils
-```
 
 
 
 
 **Run:** 
 
-To start,
+To start go into the directory with the files,
 
 ```
-	n
+	use python3 app.py to start rest api on localhost
+```
+
+```
+	use xampp and submit.php to run another server(Apache) http://192.168.64.2/dashboard/
 ```
 
 
@@ -81,7 +73,7 @@ To start,
 
 ## Functions
 
-CLS : n
+
 
 
 
@@ -89,7 +81,7 @@ CLS : n
 
 ## Example
 
-CLS : n
+
 
 
 
@@ -98,7 +90,7 @@ CLS : n
 
 ## Important Notes:
 
-**NOTE 1:** n
+
 
 
 
@@ -106,7 +98,6 @@ CLS : n
 
 ##Common Errors
 
-1.bashprofile do-make sure evrything correct and then virtualenv module appears
 
 
 
